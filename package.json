@@ -23,6 +23,7 @@
         "karma-junit-reporter": "^0.4.1",
         "body-parser": "^1.15.2",
         "morgan": "^1.7.0",
+        "mongodb": "*",
         "mongoose" : "~3.8.0",
         "webpack-dev-server": "^1.4.7"
     },

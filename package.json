@@ -24,6 +24,7 @@
     	"body-parser": "^1.15.2",
     	"morgan": "^1.7.0",
         "mongoose" : "~3.8.0",
+        "mongodb": "*",
     	"webpack-dev-server": "^1.4.7"
   	}
 }

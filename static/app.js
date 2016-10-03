@@ -8,7 +8,7 @@ angular.module('myApp', ['ui.router'])
 	$stateProvider
 		.state('login', {
 			url: '/login',
-			templateUrl: 'partials/login.html'
+			templateUrl: '../templates/login/states/login-partial.html'
 		});
 
 });

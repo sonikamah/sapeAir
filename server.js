@@ -1,16 +1,16 @@
 var express = require('express'),
-	feed = require('./app/routes'), // load the routes
+	feed = require('./server/routes'), // load the routes
 	app = express(),
 	morgan = require('morgan'),
 	bodyParser = require('body-parser');
 
 require('./config/database'); // load the database config
 
-app.use(morgan('dev')); /* 'default','short','tiny','dev' */
+app.use(morgan('dev'));  /* 'default','short','tiny','dev' */
 app.use(bodyParser.urlencoded({extended:false}))
 app.use(bodyParser.json());
 
-app.use(express.static(__dirname)); 
+app.use(express.static(__dirname));
 
 // Move to seperate file
 app.get('/feeds', feed.findAll);

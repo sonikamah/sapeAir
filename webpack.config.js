@@ -4,6 +4,6 @@ module.exports = {
     filename: 'app.js'
   },
   entry: {
-    app: './app/app.js'
+    app: './static/app.js'
   }
 }

@@ -1,7 +1,8 @@
+'use strict';
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = mongoose.Schema;
 
-var userSchema = new Schema({
+var userSchema = new schema({
     FirstName: {
         type: String,
         required: true

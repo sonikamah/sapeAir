@@ -1,7 +1,8 @@
+'use strict';
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = mongoose.Schema;
 
-var projectSchema = new Schema({
+var projectSchema = new schema({
 
   PID: {
     type: String,

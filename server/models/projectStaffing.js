@@ -1,7 +1,8 @@
+'use strict';
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = mongoose.Schema;
 
-var projectStaffingSchema = new Schema({
+var projectStaffingSchema = new schema({
   NTID: {
     type: Schema.ObjectId,
     ref: 'User',

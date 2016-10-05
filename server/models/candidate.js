@@ -1,8 +1,9 @@
+'use strict';
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = mongoose.Schema;
 
 // create a schema
-var candidateSchema = new Schema({
+var candidateSchema = new schema({
   JobId: {
     type: String,
     required: true

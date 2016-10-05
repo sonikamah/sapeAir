@@ -1,7 +1,9 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+'use strict';
 
-var feedbackSchema = new Schema({
+var mongoose = require('mongoose');
+var schema = mongoose.Schema;
+
+var feedbackSchema = new schema({
   ForNTID: {
     type: Schema.ObjectId,
     ref: 'User',

@@ -1,7 +1,8 @@
+'use strict';
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = mongoose.Schema;
 
-var hiringStatusSchema = new Schema({
+var hiringStatusSchema = new schema({
   StatusId: Number,
   StatusValue: String
 });

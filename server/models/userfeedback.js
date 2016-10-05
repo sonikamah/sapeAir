@@ -1,7 +1,8 @@
+'use strict';
 var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+var schema = mongoose.Schema;
 
-var userFeedbackSchema = new Schema({
+var userFeedbackSchema = new schema({
   NTId: {
     type: Schema.ObjectId,
     ref: 'User'

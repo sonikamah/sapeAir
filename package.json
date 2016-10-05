@@ -8,12 +8,10 @@
     	"test": "karma start karma.conf.js",
         "bundle": "webpack"
     },
-    "author": "Sonika Maheshwari",
+    "author": "",
     "license": "MIT",
     "dependencies": {
-        "angular": "^1.4.5",
         "angular-mocks": "latest",
-        "angular-ui-router": "^0.2.15",
         "express": "^4.14.0",
         "jasmine-core": "^2.4.1",
         "karma": "^0.13.22",
@@ -27,7 +25,7 @@
         "mongoose" : "~3.8.0",
         "webpack-dev-server": "^1.4.7"
     },
-        "dev-dependencies": {
+    "dev-dependencies": {
         "jasmine-core": "^2.4.1",
         "karma": "^0.13.22",
         "karma-chrome-launcher": "^0.2.3",

@@ -1,5 +1,5 @@
 {
-  "name": "lib",
+  "name": "sapeAirLib",
   "homepage": "https://github.com/sonikamah/sapeAir",
   "authors": [
     "sonika maheshwari <sonikamaheshwari067@gmail.com>"
@@ -17,7 +17,7 @@
   "dependencies": {
     "angular": "^1.5.8",
     "jquery": "^3.1.1",
-    "bootstrap": "^3.3.7",
-    "angular-ui-router": "ui-router#^0.3.1"
+    "angular-ui-router": "ui-router#^0.3.1",
+    "materialize": "^0.97.7"
   }
 }

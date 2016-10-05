@@ -1,10 +1,11 @@
 #sapeFeeds
 
-Steps:
+============= STEPS TO RUN =============
 
 run :
-1. npm install
-2. node start
+1. npm install (to install all development dependencies)
+2. bower install (to install all the frontend dependencies)
+3. node server
 
 test :
 1] bundle // webpack will be used
